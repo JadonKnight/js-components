@@ -1,0 +1,23 @@
+{
+  "name": "js-components",
+  "version": "1.0.0",
+  "description": "A simple & lightweight package for creating js components and elements",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JadonKnight/js-components.git"
+  },
+  "author": "Jadon Knight",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JadonKnight/js-components/issues"
+  },
+  "homepage": "https://github.com/JadonKnight/js-components#readme",
+  "devDependencies": {
+    "eslint": "^8.22.0",
+    "prettier": "2.7.1"
+  }
+}
