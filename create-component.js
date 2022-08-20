@@ -29,7 +29,7 @@ function assignEventListeners(htmlElement, events) {
   });
 }
 
-export function createElement(type, ...args) {
+function createElement(type, ...args) {
   const element = document.createElement(type);
   // Check if object, since for now we will be defining attributes as an object containing all attributes
   const attributes = args.find((arg) => isAttribute(arg));
@@ -56,3 +56,5 @@ export function createElement(type, ...args) {
 
   return element;
 }
+
+module.exports = createElement;
